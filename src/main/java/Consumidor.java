@@ -31,7 +31,7 @@ public abstract class Consumidor {
     public  abstract String verificarAvaliacao();
 
     public String getTipo(){
-        return "Cliente";
+        return "Consumidor";
     }
     public String getInfo() {
         return getTipo() + "{" +

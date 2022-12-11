@@ -46,9 +46,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGFAk3WoFyM+y4="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"height": 13
+											"left": 301,
+											"top": 149,
+											"width": 117.888671875,
+											"height": 13,
+											"text": "«abstract»"
 										},
 										{
 											"_type": "LabelView",
@@ -56,9 +59,9 @@
 											"_parent": {
 												"$ref": "AAAAAAGFAk3WoFyM+y4="
 											},
-											"font": "Arial;13;1",
+											"font": "Arial;13;3",
 											"left": 301,
-											"top": 151,
+											"top": 164,
 											"width": 117.888671875,
 											"height": 13,
 											"text": "Consumidor"
@@ -91,7 +94,7 @@
 									"left": 296,
 									"top": 144,
 									"width": 127.888671875,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGFAk3WoFyNAfk="
 									},
@@ -116,7 +119,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 296,
-									"top": 169,
+									"top": 182,
 									"width": 127.888671875,
 									"height": 10
 								},
@@ -141,7 +144,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 301,
-											"top": 184,
+											"top": 197,
 											"width": 117.888671875,
 											"height": 13,
 											"text": "+verificarAvaliacao()",
@@ -158,7 +161,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 301,
-											"top": 199,
+											"top": 212,
 											"width": 117.888671875,
 											"height": 13,
 											"text": "+getTipo()",
@@ -175,7 +178,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 301,
-											"top": 214,
+											"top": 227,
 											"width": 117.888671875,
 											"height": 13,
 											"text": "+getInfo()",
@@ -184,7 +187,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 296,
-									"top": 179,
+									"top": 192,
 									"width": 127.888671875,
 									"height": 53
 								},
@@ -222,7 +225,7 @@
 							"left": 296,
 							"top": 144,
 							"width": 127.888671875,
-							"height": 88,
+							"height": 101,
 							"nameCompartment": {
 								"$ref": "AAAAAAGFAk3WoFyM+y4="
 							},
@@ -645,8 +648,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 254,
-									"top": 240,
+									"left": 253,
+									"top": 244,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -666,8 +669,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 245,
-									"top": 228,
+									"left": 244,
+									"top": 232,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -687,8 +690,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 271,
-									"top": 265,
+									"left": 270,
+									"top": 269,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -706,7 +709,7 @@
 								"$ref": "AAAAAAGFAk39UFy12mU="
 							},
 							"lineStyle": 1,
-							"points": "227:287;300:232",
+							"points": "229:287;295:240",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGFAlGTIV0wH3c="
@@ -739,8 +742,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 403,
-									"top": 258,
+									"left": 407,
+									"top": 265,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -760,8 +763,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 391,
-									"top": 268,
+									"left": 396,
+									"top": 275,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -781,8 +784,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 426,
-									"top": 239,
+									"left": 430,
+									"top": 246,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -800,7 +803,7 @@
 								"$ref": "AAAAAAGFAk41kFzgXBU="
 							},
 							"lineStyle": 1,
-							"points": "435:279;396:232",
+							"points": "434:279;404:245",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGFAlGhbF1BHj4="
@@ -821,6 +824,7 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Consumidor",
+					"stereotype": "abstract",
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -846,7 +850,8 @@
 							},
 							"name": "getInfo"
 						}
-					]
+					],
+					"isAbstract": true
 				},
 				{
 					"_type": "UMLClass",
